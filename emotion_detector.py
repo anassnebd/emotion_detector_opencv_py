@@ -31,6 +31,7 @@ while True:
     font = cv2.FONT_HERSHEY_DUPLEX
     
     # Branding :) give us a visit
+    ##NEED TO REDEPLOY
     cv2.putText(test_img, "Visit us : www.Tedora.info", (10, test_img.shape[0] - 10), font, 0.5, (0, 0, 0), 2)
     if not ret:
         continue
